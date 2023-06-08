@@ -1,0 +1,194 @@
+.login-pf{
+	background:none;
+	background-color: black;
+    /* background-size: cover; */
+    height: 100%;
+	background-image: none;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+
+.login-pf body {
+    background:none;
+	background-color: black;
+    /* background-size: cover; */
+    height: 100%;
+	background-image: none;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	flex-wrap: nowrap;
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login-pf-page{
+	height: 100%;
+	padding: 0 0 5px 0;
+
+}
+
+#kc-header {
+	height: 65px;
+    width: 360px;
+    margin: 0px auto 65px;
+}
+
+#kc-header-wrapper{
+	padding: 62px 10px 20px;
+    white-space: normal;
+	background-image: url(./logo_comparastore.svg);
+	background-repeat: no-repeat;
+   
+
+}
+#kc-page-title{
+	color: black;
+	font-weight: bold;
+}
+
+.card-pf {
+	background: #fff;
+	margin: 30px auto 20px auto;
+	padding: 0 20px;
+	max-width: 400px;
+	border-top: 0;
+	box-shadow: 0 0 0;
+	border-radius: 15px;
+	flex-wrap: nowrap;
+	display: flex; 
+	flex-direction: column;
+}
+
+.login-pf-page .card-pf {
+    margin-bottom: 10px;
+	padding: 20px 40px 20px 40px;
+}
+
+.alert.alert-success{
+    background-color: #2b9f0b;
+	border-radius: 8px;
+	box-shadow: none;
+	display: none;
+}
+
+#kc-content-wrapper.pficon.pficon-ok{
+	background-color: #fff;
+	color:white  !important;
+	border: none;
+}
+
+#kc-content-wrapper.pficon.pficon-ok::before{
+	color:white  !important;
+	border: none;
+	content:none;
+}
+
+.kc-feedback-text{
+	color: white;
+}
+
+.form-control{
+	border-color:rgb(201, 199, 199);
+    border-radius: 8px;
+	box-shadow: none;
+}
+
+.form-control:hover{
+	border-color: black;
+    border-radius: 8px;
+	
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 input {
+	border-color:rgb(201, 199, 199);
+    border-radius: 8px;
+	box-shadow: none;
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 input:hover {
+	border-color: black;
+    border-radius: 8px;
+}
+
+.checkbox span{
+    color: black;
+    font-weight: bold;
+}
+
+#rememberMe{
+	color: white;
+  	background-color: black;
+}
+
+span{
+	color: black;
+}
+
+#kc-login.btn-primary.btn-block.btn-lg{
+	background-color: black !important;
+	border-radius: 8px;
+	color: white;
+	background-image: none;
+} 
+
+
+
+
+
+#kc-logout {margin-bottom: 20px;}
+
+#kc-form-buttons{
+	margin-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+#kc-form-buttons .btn-primary.btn-block.btn-lg{
+	background-color: black !important;
+	border-radius: 8px;
+	color: white;
+	background-image: none;
+} 
+
+
+#kc-registration{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.66666667;
+    color:white;
+    background-color:black;
+	margin: 0px auto;
+	padding: 0 20px;
+	max-width: 500px;
+    text-align: center;
+}
+
+#kc-registration span{
+	color: #fff;
+}
+
+#kc-registration a{
+	color: #ffe200;
+	margin: 0px;
+}
+
+.kc-registration-text{
+	padding: 0 2px;
+}
+
+#kc-info-message a {
+  padding: 20px 0 0 0;
+   color: black;
+}
+
+#kc-info{
+	display: none;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.instruction a span{
+	color: #ffe200;
+	font-weight: bold;
+}
